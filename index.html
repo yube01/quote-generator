@@ -5,29 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quote Generator</title>
     <link rel="stylesheet" href="./style.css" />
-    <script src="./script.js"></script>
+    <script defer src="./script.js"></script>
   </head>
   <body>
     <div>
-        <button>
-            White Mode
-        </button>
+        <button id="modeToggle">White Mode</button>
     </div>
     <div>
-      <p>
-        If you look at what you have in life, you'll always have more. If you
-        look at what you don't have in life, you'll never have enough. -Oprah
-        Winfrey
+      <p id="quoteDisplay">
       </p>
-      <button>Increase Font Size</button>
-      <button>Decrease Font Size</button>
-      <select name="" id="">
-        <option value="">Science</option>
-        <option value="">Faith</option>
-        <option value="">Life</option>
+      <button id="increaseFontBtn">Increase Font Size</button>
+      <button id="decreaseFontBtn">Decrease Font Size</button>
+      <select id="categorySelect">
+        <option value="Science">Science</option>
+        <option value="Faith">Faith</option>
+        <option value="Life">Life</option>
       </select>
-      <button>Previous</button>
-      <button>Next</button>
+      <button id="prevBtn">Previous</button>
+      <button id="nextBtn">Next</button>
     </div>
   </body>
 </html>

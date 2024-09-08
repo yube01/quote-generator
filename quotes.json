@@ -1,0 +1,155 @@
+{
+    "quotes": [
+      {
+        "category": "Science",
+        "author": "Albert Einstein",
+        "quote": "Imagination is more important than knowledge."
+      },
+      {
+        "category": "Science",
+        "author": "Carl Sagan",
+        "quote": "Somewhere, something incredible is waiting to be known."
+      },
+      {
+        "category": "Science",
+        "author": "Isaac Newton",
+        "quote": "If I have seen further it is by standing on the shoulders of Giants."
+      },
+      {
+        "category": "Science",
+        "author": "Marie Curie",
+        "quote": "Nothing in life is to be feared, it is only to be understood."
+      },
+      {
+        "category": "Science",
+        "author": "Galileo Galilei",
+        "quote": "You cannot teach a man anything; you can only help him find it within himself."
+      },
+      {
+        "category": "Science",
+        "author": "Stephen Hawking",
+        "quote": "Intelligence is the ability to adapt to change."
+      },
+      {
+        "category": "Science",
+        "author": "Richard Feynman",
+        "quote": "I would rather have questions that can't be answered than answers that can't be questioned."
+      },
+      {
+        "category": "Science",
+        "author": "Charles Darwin",
+        "quote": "It is not the strongest of the species that survive, nor the most intelligent, but the one most responsive to change."
+      },
+      {
+        "category": "Science",
+        "author": "Neil deGrasse Tyson",
+        "quote": "The good thing about science is that it's true whether or not you believe in it."
+      },
+      {
+        "category": "Science",
+        "author": "Leonardo da Vinci",
+        "quote": "Nature is full of infinite causes that have never occurred in experience."
+      },
+      {
+        "category": "Faith",
+        "author": "Mahatma Gandhi",
+        "quote": "Faith is not something to grasp, it is a state to grow into."
+      },
+      {
+        "category": "Faith",
+        "author": "Martin Luther King Jr.",
+        "quote": "Faith is taking the first step even when you don't see the whole staircase."
+      },
+      {
+        "category": "Faith",
+        "author": "Helen Keller",
+        "quote": "Faith is the strength by which a shattered world shall emerge into the light."
+      },
+      {
+        "category": "Faith",
+        "author": "C.S. Lewis",
+        "quote": "Faith is the art of holding on to things your reason has once accepted, in spite of your changing moods."
+      },
+      {
+        "category": "Faith",
+        "author": "Pope John Paul II",
+        "quote": "Faith and reason are like two wings on which the human spirit rises to the contemplation of truth."
+      },
+      {
+        "category": "Faith",
+        "author": "Mother Teresa",
+        "quote": "Be faithful in small things because it is in them that your strength lies."
+      },
+      {
+        "category": "Faith",
+        "author": "Rumi",
+        "quote": "Let yourself be silently drawn by the strange pull of what you really love. It will not lead you astray."
+      },
+      {
+        "category": "Faith",
+        "author": "Blaise Pascal",
+        "quote": "Faith is different from proof; the latter is human, the former is a Gift from God."
+      },
+      {
+        "category": "Faith",
+        "author": "Dietrich Bonhoeffer",
+        "quote": "Faith is only real when there is obedience, never without it, and faith only becomes faith in the act of obedience."
+      },
+      {
+        "category": "Faith",
+        "author": "Rabindranath Tagore",
+        "quote": "Faith is the bird that feels the light when the dawn is still dark."
+      },
+      {
+        "category": "Life",
+        "author": "Oscar Wilde",
+        "quote": "To live is the rarest thing in the world. Most people exist, that is all."
+      },
+      {
+        "category": "Life",
+        "author": "Confucius",
+        "quote": "Life is really simple, but we insist on making it complicated."
+      },
+      {
+        "category": "Life",
+        "author": "Mark Twain",
+        "quote": "The two most important days in your life are the day you are born and the day you find out why."
+      },
+      {
+        "category": "Life",
+        "author": "Steve Jobs",
+        "quote": "Your time is limited, so don't waste it living someone else's life."
+      },
+      {
+        "category": "Life",
+        "author": "Maya Angelou",
+        "quote": "My mission in life is not merely to survive, but to thrive."
+      },
+      {
+        "category": "Life",
+        "author": "Leonardo da Vinci",
+        "quote": "As a well-spent day brings happy sleep, so a life well spent brings happy death."
+      },
+      {
+        "category": "Life",
+        "author": "Albert Camus",
+        "quote": "In the midst of winter, I found there was, within me, an invincible summer."
+      },
+      {
+        "category": "Life",
+        "author": "Ralph Waldo Emerson",
+        "quote": "Do not go where the path may lead, go instead where there is no path and leave a trail."
+      },
+      {
+        "category": "Life",
+        "author": "Henry David Thoreau",
+        "quote": "Go confidently in the direction of your dreams! Live the life you've imagined."
+      },
+      {
+        "category": "Life",
+        "author": "Khalil Gibran",
+        "quote": "You give but little when you give of your possessions. It is when you give of yourself that you truly give."
+      }
+    ]
+  }
+  
