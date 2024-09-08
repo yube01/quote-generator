@@ -55,5 +55,21 @@ prevBtn.addEventListener("click", () => {
   displayQuote();
 });
 
+categorySelect.addEventListener("change", (e) => {
+  currentCategory = e.target.value;
+  filteredQuotes = quotes.filter((quote) => quote.category === currentCategory);
+  currentIndex = 0;
+  displayQuote();
+});
+
+
+modeToggle.addEventListener("click", () => {
+  document.body.classList.toggle("white-mode");
+  modeToggle.textContent = document.body.classList.contains("white-mode")
+    ? "Dark Mode"
+    : "White Mode";
+});
+
+
 
 loadQuotes();
