@@ -10,6 +10,9 @@ const nextBtn = document.getElementById("nextBtn");
 const increaseFontBtn = document.getElementById("increaseFontBtn");
 const decreaseFontBtn = document.getElementById("decreaseFontBtn");
 const modeToggle = document.getElementById("modeToggle");
+const randomBtn = document.getElementById('randomBtn');
+
+
 
 let currentFontSize = 16;
 
@@ -68,6 +71,12 @@ modeToggle.addEventListener("click", () => {
   modeToggle.textContent = document.body.classList.contains("white-mode")
     ? "Dark Mode"
     : "White Mode";
+});
+
+randomBtn.addEventListener('click', () => {
+  const randomIndex = Math.floor(Math.random() * quotes.length); 
+  const randomQuote = quotes[randomIndex];
+  quoteDisplay.innerHTML = `"${randomQuote.quote}" - ${randomQuote.author}`;
 });
 
 
