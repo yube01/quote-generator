@@ -79,6 +79,16 @@ randomBtn.addEventListener('click', () => {
   quoteDisplay.innerHTML = `"${randomQuote.quote}" - ${randomQuote.author}`;
 });
 
+increaseFontBtn.addEventListener("click", () => {
+  currentFontSize += 2;
+  quoteDisplay.style.fontSize = `${currentFontSize}px`;
+});
 
+decreaseFontBtn.addEventListener("click", () => {
+  if (currentFontSize > 12) {
+    currentFontSize -= 2;
+    quoteDisplay.style.fontSize = `${currentFontSize}px`;
+  }
+});
 
 loadQuotes();
