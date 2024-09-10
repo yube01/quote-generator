@@ -1,23 +1,71 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #333;
-    color: white;
-    padding: 20px;
-  }
-  
-  .white-mode {
-    background-color: white;
-    color: black;
-  }
-  
-  #quoteDisplay {
-    font-size: 16px;
-    margin: 20px 0;
-  }
-  
-  button, select {
-    margin: 5px;
-    padding: 10px;
-    cursor: pointer;
-  }
-  
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.white-mode {
+  background-color: white;
+  color: black;
+}
+
+#fontChange {
+  display: flex;
+  gap: 3rem;
+  min-width: 30vw;
+  margin-bottom: 5rem;
+}
+
+#quoteDisplay {
+  max-width: 1024px;
+  max-height: 40vh;
+  padding: 1rem;
+  overflow-y: scroll;
+}
+
+#changeQuote {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+
+#prevBtn,
+#randomBtn,
+#nextBtn {
+  width: 7rem;
+}
+
+#modeToggle {
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+}
+
+#categorySelect {
+  position: fixed;
+  top: 2rem;
+  right: 12rem;
+}
+
+#quoteDisplay {
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+button,
+select {
+  margin: 5px;
+  padding: 0.8rem 1.2rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: aqua;
+  border-radius: 2rem;
+}
