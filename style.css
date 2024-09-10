@@ -2,7 +2,7 @@ body {
   font-family: Arial, sans-serif;
   background-color: black;
   color: white;
-  padding: 20px;
+  padding-top: 4.6rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,12 +55,14 @@ body {
   position: fixed;
   top: 0.5rem;
   right: 2rem;
+  z-index: 1;
 }
 
 #categorySelect {
   position: fixed;
   top: 0.5rem;
   right: 12rem;
+  z-index: 1;
 }
 
 
@@ -77,7 +79,7 @@ select {
   border-radius: 2rem;
 }
 
-@media (max-width: 768px) { 
+@media (max-width: 420px) { 
   #fontChange {
     flex-direction: column; 
     gap: 1rem;
